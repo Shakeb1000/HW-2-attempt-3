@@ -46,7 +46,9 @@ def run():
   credit3=float(credit3)
 
   GPA = ((Gp1 * credit1) + (Gp2 * credit2) + (Gp3 * credit3)) / (credit1 + credit2 + credit3)
-  return GPA
   
+  print (f"Your GPA is: {GPA}")
 
-print(f"Your GPA is: {run()}")
+tempvariable = 1
+if tempvariable==1:
+  run();
